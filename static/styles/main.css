@@ -1,0 +1,7 @@
+/* Insert empty space to make content visible after making navbar fixed */
+body::before{
+
+    display: block;
+    content: '';
+    height: 60px;
+}
